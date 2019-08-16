@@ -70,9 +70,12 @@ zh_cn({
         "phonenote": "👈邮件 💌轰炸喔",
         "subtitle": "你还可以通过以下方式找到我",
         "facebook": "https://www.facebook.com/iMeswx",
+        "dribbble": "", //无此账号，留空即可，下同
         "twitter": "https://twitter.com/meswx",
         "github": "https://github.com/Meswx",
-        "weibo": "https://weibo.com/meswx"
+        "weibo": "https://weibo.com/meswx",
+        "instagram": "",
+        "linkedin": ""
     },
     //版权
     "copyright": {

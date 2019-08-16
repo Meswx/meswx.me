@@ -70,9 +70,12 @@ en_us({
         "phonenote": "👈Email 💌Bomb oh~",
         "subtitle": "Social Network",
         "facebook": "https://www.facebook.com/iMeswx",
+        "dribbble": "", //No such account, just leave it blank, the same as below
         "twitter": "https://twitter.com/meswx",
         "github": "https://github.com/Meswx",
-        "weibo": "https://weibo.com/meswx"
+        "weibo": "https://weibo.com/meswx",
+        "instagram": "",
+        "linkedin": ""
     },
     //Copyright
     "copyright": {

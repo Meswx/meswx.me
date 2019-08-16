@@ -406,13 +406,20 @@
           <h3>{{ contact.subtitle }}</h3>
           <div class="social">
             <ul>
-              <li v-if="contact.facebook"><a target="_blank" v-bind:href="contact.facebook"><i class="fa fa-facebook"></i></a></li>
-              <li v-if="contact.twitter"><a target="_blank" v-bind:href="contact.twitter"><i class="fa fa-twitter"></i></a></li>
-              <!-- <li><a href="#"><i class="fa fa-dribbble"></i></a></li> -->
-              <li v-if="contact.github"><a target="_blank" v-bind:href="contact.github"><i class="fa fa-github"></i></a></li>
-              <li v-if="contact.weibo"><a target="_blank" v-bind:href="contact.weibo"><i class="fa fa-weibo"></i></a></li>
-              <!-- <li><a href="#"><i class="fa fa-instagram"></i></a></li> -->
-              <!-- <li><a href="#"><i class="fa fa-linkedin"></i></a></li> -->
+              <li v-if="contact.facebook"><a target="_blank" v-bind:href="contact.facebook"><i
+                    class="fa fa-facebook"></i></a></li>
+              <li v-if="contact.twitter"><a target="_blank" v-bind:href="contact.twitter"><i
+                    class="fa fa-twitter"></i></a></li>
+              <li v-if="contact.dribbble"><a target="_blank" v-bind:href="contact.dribbble"><i
+                    class="fa fa-dribbble"></i></a></li>
+              <li v-if="contact.github"><a target="_blank" v-bind:href="contact.github"><i class="fa fa-github"></i></a>
+              </li>
+              <li v-if="contact.weibo"><a target="_blank" v-bind:href="contact.weibo"><i class="fa fa-weibo"></i></a>
+              </li>
+              <li v-if="contact.instagram"><a target="_blank" v-bind:href="contact.instagram"><i
+                    class="fa fa-instagram"></i></a></li>
+              <li v-if="contact.linkedin"><a target="_blank" v-bind:href="contact.linkedin"><i
+                    class="fa fa-linkedin"></i></a></li>
             </ul>
           </div>
         </div>
