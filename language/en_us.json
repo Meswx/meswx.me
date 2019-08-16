@@ -58,7 +58,64 @@ en_us({
         "title": "Portfolio"
     },
     //Resume information
-    "resume": {},
+    "resume": {
+        //Experience
+        "experience": {
+            "title": "Experience",
+            "items": [
+                {
+                    "companyName": "CertusNet Inc.",
+                    "time": "May 2019 <br>- <br>Present ",
+                    "responsibilitys": "1. Participated in the operation and maintenance business support of fusion cloud<br>2. Responsible for the client diagnostic program of the cloud platform for basic TV live broadcast (Android)<br>3. Post transfer front-end development",
+                    "position": "Integrated Operations Software Engineer"
+                },
+                {
+                    "companyName": "Hoperun Inc.",
+                    "time": "Sept 2018 <br>- <br>Apr 2019 ",
+                    "responsibilitys": "1. Participate in all kinds of information security work<br>2. Responsible for daily iterative maintenance of mobile applications (Android)",
+                    "position": "Mobile Client Engineer"
+                },
+                {
+                    "companyName": "Zhongbo Inc.",
+                    "time": "Mar 2017 <br>- <br>Sept 2018 ",
+                    "responsibilitys": "1. Telecom cloud account application development<br>2. Intelligent operation and maintenance application development<br>3. Optical access network platform development (Web)",
+                    "position": "Audit Mobile Application Development Engineer"
+                },
+                {
+                    "companyName": "Simesoft Inc.",
+                    "time": "Nov 2016 <br>- <br>Sept 2018 ",
+                    "responsibilitys": "Participated in the development of 'smart parking' project (Android)",
+                    "position": "Android Development Engineer"
+                }
+            ]
+        },
+        //Education
+        "education": {
+            "title": "Education",
+            "items": [
+                {
+                    "schoolName": "Jinling Institute of Technology (JIT)",
+                    "date": "2012 <br>- <br>2016 ",
+                    "achievements": [
+                        {
+                            "desc": "Bachelor Degree of Engineering"
+                        }
+                    ],
+                    "schoolProfile": "Located in Nanjing, Jinling Institute of Technology (JIT) is a full-time undergraduate tertiary university, which cultivates advanced application-oriented talents."
+                },
+                {
+                    "schoolName": "NanLing Middle School",
+                    "date": "2009 <br>- <br>2012 ",
+                    "achievements": [
+                        {
+                            "desc": "High School Degree"
+                        }
+                    ],
+                    "schoolProfile": "Anhui provincial key demonstration high school, wuhu city key high school, nanling county first middle school"
+                }
+            ]
+        }
+    },
     //Contact information
     "contact": {
         "title": "Contact",
