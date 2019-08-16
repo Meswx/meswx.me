@@ -1,0 +1,84 @@
+en_us({
+    //Personal information
+    "personInfo": {
+        "name": "Wang Xiang",
+        "job": "Software Enginer/Android Developer/Open Source Geek"
+    },
+    //Header information
+    "header": {
+        "hi": "Hello, I'm ",
+        "detail": "Learn More"
+    },
+    //Navigation information
+    "navigation": {
+        "about": "About",
+        "skills": "Skills",
+        "portfolio": "Portfolio",
+        "resume": "Resume",
+        "contact": "Contact"
+    },
+    //About information
+    "about": {
+        "title": "About Me",
+        "subtitle": "Please put a quote, etc",
+        "introduction": "Please introduction youself"
+    },
+    //Skills information
+    "skills": {
+        "title": "Skills",
+        "list": [
+            {
+                "name": "Java",
+                "percent": 70
+            },
+            {
+                "name": "Android",
+                "percent": 80
+            },
+            {
+                "name": "HTML+CSS",
+                "percent": 70
+            },
+            {
+                "name": "JavaScript",
+                "percent": 70
+            },
+            {
+                "name": "Vue.js",
+                "percent": 60
+            },
+            {
+                "name": "Node.js",
+                "percent": 50
+            }
+        ]
+    },
+    //Portfolio information
+    "portfolio": {
+        "title": "Portfolio"
+    },
+    //Resume information
+    "resume": {},
+    //Contact information
+    "contact": {
+        "title": "Contact",
+        "street": "XuanWu, Nanjing",
+        "city": "Jiang Su, China(🇨🇳)",
+        "email": "meswx@outlook.com",
+        "emailnote": "Telephone ☎️Harassment oh 👉",
+        "phone": "+86 189 9405 2732",
+        "phonenote": "👈Email 💌Bomb oh~",
+        "subtitle": "Social Network",
+        "facebook": "https://www.facebook.com/iMeswx",
+        "twitter": "https://twitter.com/meswx",
+        "github": "https://github.com/Meswx",
+        "weibo": "https://weibo.com/meswx"
+    },
+    //Copyright
+    "copyright": {
+        "author": "Meswx", //mandatory
+        "original": "John Doe", //Although what I download is the free HTML template of open source copyright, I hope that we still need to respect the work of the original author, plus the original author (suggested, not required).
+        "source": "TemplateWire", //Here is the site where the original author template was published, and there are many other types of templates (recommended, not required)
+        "sourceurl": "http://www.templatewire.com" //not required
+    }
+})
