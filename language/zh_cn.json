@@ -57,6 +57,28 @@ zh_cn({
     "portfolio": {
         "title": "我参与的项目"
     },
+    //成就
+    "stats": {
+        "title": "统计数据",
+        "list": [
+            {
+                "name": "工作年限",
+                "number": 3
+            },
+            {
+                "name": "参与项目",
+                "number": 10
+            },
+            {
+                "name": "服务客户",
+                "number": 18
+            },
+            {
+                "name": "累计工作小时",
+                "number": 26280
+            }
+        ]
+    },
     //履历
     "resume": {
         //工作经验

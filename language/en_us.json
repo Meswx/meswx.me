@@ -57,6 +57,28 @@ en_us({
     "portfolio": {
         "title": "Portfolio"
     },
+    //Achievement
+    "stats": {
+        "title": "Some Stats",
+        "list": [
+            {
+                "name": "Work Experiences",
+                "number": 3
+            },
+            {
+                "name": "Project Numbers",
+                "number": 10
+            },
+            {
+                "name": "Happy Clients",
+                "number": 18
+            },
+            {
+                "name": "Hours of Work",
+                "number": 26280
+            }
+        ]
+    },
     //Resume information
     "resume": {
         //Experience
