@@ -55,7 +55,94 @@ zh_cn({
     },
     //作品
     "portfolio": {
-        "title": "我参与的项目"
+        "title": "我参与的项目",
+        //作品分类
+        "categories": [
+            {
+                "name": "web"
+            },
+            {
+                "name": "app"
+            },
+            {
+                "name": "vue"
+            },
+            {
+                "name": "java"
+            }
+        ],
+        "types": [
+            {
+                "typeName": "All", // 展示所有类型
+                "filter": "*" // *表示通配，不过滤
+            },
+            {
+                "typeName": "Web项目",
+                "filter": ".web"
+            },
+            {
+                "typeName": "Android应用",
+                "filter": ".app"
+            },
+            {
+                "typeName": "Vue工程",
+                "filter": ".vue"
+            },
+            {
+                "typeName": "Java开发",
+                "filter": ".java"
+            }
+        ],
+        "projects": [
+            {
+                "projectTitle": "简易Web电商系统",
+                "projectCategory": "web",
+                "projectDescription": "Web项目",
+                "projectBackgroudImage": "img/portfolio/01-small.jpg",
+            },
+            {
+                "projectTitle": "总机云",
+                "projectCategory": "app",
+                "projectDescription": "Android应用",
+                "projectBackgroudImage": "img/portfolio/02-small.jpg",
+            },
+            {
+                "projectTitle": "J2SE图书管理系统",
+                "projectCategory": "java",
+                "projectDescription": "Java开发",
+                "projectBackgroudImage": "img/portfolio/03-small.jpg",
+            },
+            {
+                "projectTitle": "菲斯泊车",
+                "projectCategory": "app java",
+                "projectDescription": "Android应用，Java开发",
+                "projectBackgroudImage": "img/portfolio/04-small.jpg",
+            },
+            {
+                "projectTitle": "智慧营维",
+                "projectCategory": "app",
+                "projectDescription": "Android应用",
+                "projectBackgroudImage": "img/portfolio/05-small.jpg",
+            },
+            {
+                "projectTitle": "光接入网平台",
+                "projectCategory": "web app",
+                "projectDescription": "Web项目，Android应用",
+                "projectBackgroudImage": "img/portfolio/06-small.jpg",
+            },
+            {
+                "projectTitle": "华为视频·优酷版",
+                "projectCategory": "app",
+                "projectDescription": "Android应用",
+                "projectBackgroudImage": "img/portfolio/07-small.jpg",
+            },
+            {
+                "projectTitle": "基于Vue前端技术的在线简历",
+                "projectCategory": "vue",
+                "projectDescription": "Vue工程",
+                "projectBackgroudImage": "img/portfolio/08-small.jpg",
+            }
+        ]
     },
     //成就
     "stats": {

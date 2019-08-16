@@ -55,7 +55,94 @@ en_us({
     },
     //Portfolio information
     "portfolio": {
-        "title": "Portfolio"
+        "title": "Portfolio",
+        //Portfolio Category
+        "categories": [
+            {
+                "name": "web"
+            },
+            {
+                "name": "app"
+            },
+            {
+                "name": "vue"
+            },
+            {
+                "name": "java"
+            }
+        ],
+        "types": [
+            {
+                "typeName": "All",
+                "filter": "*"
+            },
+            {
+                "typeName": "Web Design",
+                "filter": ".web"
+            },
+            {
+                "typeName": "Android Application",
+                "filter": ".app"
+            },
+            {
+                "typeName": "Vue Project",
+                "filter": ".vue"
+            },
+            {
+                "typeName": "Java Development",
+                "filter": ".java"
+            }
+        ],
+        "projects": [
+            {
+                "projectTitle": "Simple Web Electricity System",
+                "projectCategory": "web",
+                "projectDescription": "Web Design",
+                "projectBackgroudImage": "img/portfolio/01-small.jpg",
+            },
+            {
+                "projectTitle": "ZongJiYun",
+                "projectCategory": "app",
+                "projectDescription": "Android Application",
+                "projectBackgroudImage": "img/portfolio/02-small.jpg",
+            },
+            {
+                "projectTitle": "J2SE Library Management System",
+                "projectCategory": "java",
+                "projectDescription": "Java Development",
+                "projectBackgroudImage": "img/portfolio/03-small.jpg",
+            },
+            {
+                "projectTitle": "Feith Parking",
+                "projectCategory": "app java",
+                "projectDescription": "Android Application,Java Development",
+                "projectBackgroudImage": "img/portfolio/04-small.jpg",
+            },
+            {
+                "projectTitle": "Wisdom Camp",
+                "projectCategory": "app",
+                "projectDescription": "Android Application",
+                "projectBackgroudImage": "img/portfolio/05-small.jpg",
+            },
+            {
+                "projectTitle": "Optical Access Network Platform",
+                "projectCategory": "web app",
+                "projectDescription": "Web Design,Android Application",
+                "projectBackgroudImage": "img/portfolio/06-small.jpg",
+            },
+            {
+                "projectTitle": "Huawei Video(youku)",
+                "projectCategory": "app",
+                "projectDescription": "Android Application",
+                "projectBackgroudImage": "img/portfolio/07-small.jpg",
+            },
+            {
+                "projectTitle": "Online Resume Based on Vue",
+                "projectCategory": "vue",
+                "projectDescription": "Vue Project",
+                "projectBackgroudImage": "img/portfolio/08-small.jpg",
+            }
+        ]
     },
     //Achievement
     "stats": {
