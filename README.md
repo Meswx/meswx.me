@@ -18,7 +18,7 @@ Then, open `index.html` directly in your browser to see the effect.
 
 **How do modify resume information？**
 
-![](http://ww4.sinaimg.cn/large/006tNc79gy1g61br1nxvxj315e0u0tbr.jpg)
+<div align=center><img src="http://ww4.sinaimg.cn/large/006tNc79gy1g61br1nxvxj315e0u0tbr.jpg" width="500"/></div>
 
 All you need to do is replace the information in bilingual json to generate your resume.
 
