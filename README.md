@@ -4,7 +4,7 @@ A static online Resume/CV template, support for English and Chinese.
 
 I used the [`Vue`](https://cn.vuejs.org) to read from a json file for data binding, reducing the coupling between the template UI and the data. Users only need to care about the json data of their resumes to generate their own online resumes (styliszed, but customizable by users with a programming background).
 
-Enjoy it😘.
+Enjoy it 😘.
 
 ## Document
 
@@ -22,7 +22,7 @@ Then, open `index.html` directly in your browser to see the effect.
 
 All you need to do is replace the information in bilingual json to generate your resume.
 
-Simple~ 👨🏻‍💻 (thanks to [Vue] (https://cn.vuejs.org), the 🐂🍺 front-end framework must learn)
+Simple~ 👨🏻‍💻 (thanks to Vue (https://cn.vuejs.org), the 🐂🍺 front-end framework must learn)
 
 ## Features
 
