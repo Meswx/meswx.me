@@ -1,0 +1,89 @@
+en_us({
+    "personInfo": {
+        "name": "Wang Xiang",
+        "labels": [
+            "Developer",
+            "Enginer",
+            "Geek"
+        ],
+        "email": "meswx@outlook.com",
+        "introduction": "Focus on Mobile Applications and Web Development @meswx"
+    },
+    "skills": {
+        "title": "Skills",
+        "listCard": [
+            {
+                "exp": "+ 5 years",
+                "title": "Object-oriented programming experience",
+                "subtitle": "Started to learn Java by myself in 2015"
+            },
+            {
+                "exp": "+ 3 years",
+                "title": "Android development experience",
+                "subtitle": "I have been engaged in Android development since I started working"
+            },
+            {
+                "exp": "+ 1 years",
+                "title": "Learning front-end technology",
+                "subtitle": "Be familiar with some simple front-end frameworks"
+            }
+        ]
+    },
+    "interests": {
+        "title": "Interests",
+        "listCard": [
+            {
+                "title": "Web Design",
+                "subtitle": "HTML, CSS, Bootstrap, JQuery, Vue"
+            },
+            {
+                "title": "Scripting languages",
+                "subtitle": "JS, Bash, Ruby, ..."
+            }
+        ]
+    },
+    "timelines": [
+        {
+            "lines": [
+                {
+                    "point": "Now",
+                    "description": "CertusNet Inc.",
+                    "date": "Today - May. 2019",
+                },
+                {
+                    "point": "",
+                    "description": "Hoperun Inc.",
+                    "date": "Apr. 2019 - Sept. 2018",
+                },
+                {
+                    "point": "",
+                    "description": "Zhongbo Inc.",
+                    "date": "Sept. 2018 - Mar. 2017",
+                },
+                {
+                    "point": "Have a job",
+                    "description": "Formal entry into work",
+                    "date": "Nov. 25. 2016",
+                }
+            ]
+        },
+        {
+            "lines": [
+                {
+                    "point": "Training",
+                    "description": "Computer training",
+                    "date": "May. 2016 - Nov. 2016",
+                },
+                {
+                    "point": "University",
+                    "description": "Electrical & Automation studies",
+                    "date": "2012 - 2016",
+                }
+            ]
+        }
+    ],
+    "copyright": {
+        "author": "Meswx",
+        "website": "https://meswx.github.io"
+    }
+})

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<html>
+
+<head>
+	<title>Mini Resume/CV @meswx</title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+	<div id="app">
+
+		<div class="container">
+			<div class="hero">
+				<h1 class="name"><strong>{{ personInfo.name }}</strong></h1>
+				<span v-for="label in personInfo.labels" class="job-title">{{ label }}</span>
+				<span class="email">{{ personInfo.email }}</span>
+				<h2 class="lead">{{ personInfo.introduction }}</h2>
+			</div>
+		</div>
+
+		<!-- Skills and intrest section -->
+		<div class="container">
+
+			<div class="sections">
+				<h2 class="section-title">{{ skills.title }}</h2>
+
+				<div v-for="card in skills.listCard" class="list-card">
+					<span class="exp">{{ card.exp }}</span>
+					<div>
+						<h3>{{ card.title }}</h3>
+						<span>{{ card.subtitle }}</span>
+					</div>
+				</div>
+
+			</div>
+			<div class="sections">
+				<h2 class="section-title">{{ interests.title }}</h2>
+
+				<div v-for="card in interests.listCard" class="list-card">
+					<div>
+						<h3>{{ card.title }}</h3>
+						<span>{{ card.subtitle }}</span>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<!-- Achievements -->
+		<div class="container cards">
+
+			<div class="card">
+				<div class="skill-level">
+					<span>+</span>
+					<h2>60</h2>
+				</div>
+
+				<div class="skill-meta">
+					<h3>Projects</h3>
+					<span>Adapting and creating solutions for customer's needs</span>
+				</div>
+			</div>
+
+
+			<div class="card">
+				<div class="skill-level">
+					<h2>50</h2>
+					<span>%</span>
+				</div>
+
+				<div class="skill-meta">
+					<h3>Web</h3>
+					<span>Applications development integrating third-party services and mobile client(s)</span>
+				</div>
+			</div>
+
+
+			<div class="card">
+				<div class="skill-level">
+					<h2>30</h2>
+					<span>%</span>
+				</div>
+
+				<div class="skill-meta">
+					<h3>Technical solutions</h3>
+					<span>Such as web services, scripts, configurations</span>
+				</div>
+			</div>
+
+
+			<div class="card">
+				<div class="skill-level">
+					<h2>20</h2>
+					<span>%</span>
+				</div>
+
+				<div class="skill-meta">
+					<h3>Leading</h3>
+					<span>Web projects and ensure the quality of delivery</span>
+				</div>
+			</div>
+
+		</div>
+
+		<!-- Timeeline -->
+		<div v-for="timeline in timelines" class="container">
+			<ol class="timeline">
+				<li v-for="line in timeline.lines">
+					<p v-if="line.point" class="line">{{ line.point }}</p>
+					<span class="point"></span>
+					<p v-if="line.description" class="description">{{ line.description }}</p>
+					<span v-if="line.date" class="date">{{ line.date }}</span>
+				</li>
+			</ol>
+			<br>
+		</div>
+
+		<footer class="container">
+			<span style="font-size: 16px;">Coded by <a target="_blank" :href="copyright.website">{{ copyright.author }}
+				</a> Designed by
+				<a href="https://dribbble.com/shots/4342703-Minimal-resume-freebie-for-junior-self-taught-people">Nicolas
+					Meuzard</a> ( Original Author, Thanks 🍺)</span>
+		</footer>
+
+		<script type="text/javascript" src="../js/vue.min.js"></script>
+
+		<!-- read json config file @meswx -->
+		<script type="text/javascript">
+			function en_us(data) {
+				window.localStorage.setItem("en_us", JSON.stringify(data))
+				var vm = new Vue({
+					el: '#app',
+					data: {
+						lang: 'en_us',
+						language: null,
+						personInfo: {},
+						// header: {},
+						// navigation: {},
+						// about: {},
+						skills: {},
+						interests: {},
+						timelines: {},
+						copyright: {},
+						// resume: {},
+						// education: {},
+						// experience: {},
+						// stats: {}
+						// count: 0,
+						// sum: 0,
+					},
+					mounted: function () {
+						var data = window.localStorage.getItem(this.lang)
+						if (data != null) {
+							data = JSON.parse(data)
+							this.personInfo = data.personInfo
+							// this.header = data.header
+							// this.navigation = data.navigation
+							// this.about = data.about
+							this.skills = data.skills
+							this.interests = data.interests
+							this.timelines = data.timelines
+							this.copyright = data.copyright
+							// this.resume = data.resume
+							// this.education = data.resume.education
+							// this.experience = data.resume.experience
+							// this.stats = data.stats
+							// if (data.timelines.length % 4 != 0) {
+							// 	this.count = parseInt(data.timelines.length / 4 + 1)
+							// } else {
+							// 	this.count = parseInt(data.timelines.length / 4)
+							// }
+						}
+					}
+				})
+			}
+		</script>
+		<script src="language/en_us.json"></script>
+
+	</div>
+
+</body>
+
+</html>
