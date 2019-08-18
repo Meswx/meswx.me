@@ -17,12 +17,22 @@ function main() {
       }
     });
 
-    // affix the navbar after scroll below header
-    $('#nav').affix({
-      offset: {
-        top: $('header').height()
+    /* ======= Fixed page nav when scrolled ======= */
+    $(window).on('scroll resize load', function () {
+
+      var scrollTop = $(this).scrollTop();
+      var topDistance = $('header').height() - $('nav').height();
+
+      if ((topDistance) < scrollTop) {
+        $('#nav').attr("class", 'affix');
       }
+      else {
+        $('#nav').attr("class", 'affix-top');
+      }
+
     });
+
+    $('body').scrollspy({ target: '#nav', offset: 100 });
 
     // skills chart
     $(document).ready(function (e) {

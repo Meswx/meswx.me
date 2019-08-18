@@ -34,7 +34,8 @@
             <div class="intro-text">
               <h1>{{ header.hi }}<span class="name">{{ personInfo.name }}</span></h1>
               <p>{{ personInfo.job }}</p>
-              <a target="_blank" href="./minimal-resume/index.html" class="btn btn-default btn-lg page-scroll">{{ header.detail }}</a>
+              <a target="_blank" href="./minimal-resume/index.html"
+                class="btn btn-default btn-lg page-scroll">{{ header.detail }}</a>
             </div>
           </div>
         </div>
@@ -265,6 +266,7 @@
     <script type="text/javascript" src="js/jquery.1.11.1.js"></script>
     <script type="text/javascript" src="js/bootstrap.js"></script>
     <script type="text/javascript" src="js/SmoothScroll.js"></script>
+    <script type="text/javascript" src="js/back-to-top.js"></script>
     <script type="text/javascript" src="js/easypiechart.js"></script>
     <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
     <script type="text/javascript" src="js/jquery.isotope.js"></script>
@@ -277,11 +279,11 @@
 
     <!-- read json config file @meswx -->
     <script type="text/javascript">
-      function en_us(data) {
-        window.localStorage.setItem("en_us", JSON.stringify(data))
-      }
       function zh_cn(data) {
         window.localStorage.setItem("zh_cn", JSON.stringify(data))
+      }
+      function en_us(data) {
+        window.localStorage.setItem("en_us", JSON.stringify(data))
         var vm = new Vue({
           el: '#container',
           data: {
@@ -304,14 +306,14 @@
             changeLanguage: function () {
               var zh_cn = 'zh_cn'
               var en_us = 'en_us'
-              if (this.lang == zh_cn) {
-                // this.lang = en_us;
-                this.language = "Chinese"
-              } else {
-                // this.lang = zh_cn;
-                this.language = "English"
-              }
               var data = window.localStorage.getItem(this.lang)
+              if (this.lang == zh_cn) {
+                this.language = "English"
+                this.lang = en_us;
+              } else {
+                this.language = "Chinese"
+                this.lang = zh_cn;
+              }
               if (data != null) {
                 data = JSON.parse(data)
                 this.personInfo = data.personInfo
