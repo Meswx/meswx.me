@@ -42,6 +42,32 @@ en_us({
             }
         ]
     },
+    "achievements": [
+        {
+            "num": "60",
+            "tag": "+",
+            "name": "Projects",
+            "desc": "Programming experience on over 60 projects"
+        },
+        {
+            "num": "10",
+            "tag": "+",
+            "name": "Apps",
+            "desc": "develop more than 10 online app"
+        },
+        {
+            "num": "80",
+            "tag": "%",
+            "name": "Working",
+            "desc": "working time is spent on development"
+        },
+        {
+            "num": "20",
+            "tag": "%",
+            "name": "Leading",
+            "desc": "working time is spent on Learning"
+        }
+    ],
     "timelines": [
         {
             "lines": [
