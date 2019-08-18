@@ -20,6 +20,15 @@ function main() {
     /* ======= Fixed page nav when scrolled ======= */
     $(window).on('scroll resize load', function () {
 
+      //在页面滑动的时候，如果“语言切换按钮”未显示，则显示3S
+      if ($('.lang').is(':hidden')) {
+        $('.lang').show(1000, function () {
+          setTimeout(function () {
+            $('.lang').hide();
+          }, 3000);
+        });
+      }
+
       var scrollTop = $(this).scrollTop();
       var topDistance = $('header').height() - $('nav').height();
 
@@ -31,6 +40,10 @@ function main() {
       }
 
     });
+
+    setTimeout(function () {
+      $(".lang").css("display", "none");
+    }, 3000);
 
     $('body').scrollspy({ target: '#nav', offset: 100 });
 

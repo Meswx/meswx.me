@@ -40,6 +40,11 @@
           </div>
         </div>
       </div>
+      <div class="lang">
+        <a @click="changeLanguage" title="切换中/英文简历"><i class="fa fa-language"></i>
+          {{ language }}
+        </a>
+      </div>
     </header>
     <!-- Navigation -->
     <div id="nav">
@@ -308,10 +313,10 @@
               var en_us = 'en_us'
               var data = window.localStorage.getItem(this.lang)
               if (this.lang == zh_cn) {
-                this.language = "English"
+                this.language = "英"
                 this.lang = en_us;
               } else {
-                this.language = "Chinese"
+                this.language = "中"
                 this.lang = zh_cn;
               }
               if (data != null) {

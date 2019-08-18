@@ -78,9 +78,33 @@ hr {
 	margin-bottom: 30px;
 	border: 0;
 }
+.lang {
+	position: fixed;
+	right: 2rem;
+	top: 3rem;
+	z-index: 1000;
+}
+
+.lang a {
+	display: inline-block;
+	background: #008fa1;
+	color: #fff;
+	padding: 20px 15px 15px 15px;
+	border-radius: 100%;
+	width: 5rem;
+    height: 5rem;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4);
+	font-weight: 500;
+	font-size: 14px;
+}
+
+.lang a:hover {
+	color: #fff;
+	background: #00a5bb;
+}
 /* Navigation */
 #nav {
-	z-index: 9999;
+	z-index: 999;
 }
 #nav.affix {
 	position: fixed;
