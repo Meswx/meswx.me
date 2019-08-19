@@ -30,6 +30,14 @@ Simple~ 👨🏻‍💻 (thanks to Vue (https://cn.vuejs.org), the 🐂🍺 fron
 * Resume data is read dynamically from a JSON file
 * Templates are highly customizable and require a basic knowledge of HTML/CSS/JavaScript/Vue
 
+## Release
+
+**v1.0**
+
+* Support English and Chinese instant switch
+* Add the button to slide the top
+* Navigation bar automatically floating, automatic update instructions
+
 ## Instructions
 
 This template is not my original, the original author is **John Doe** (good job 👍), I downloaded from the website named [Templatewire](http://www.templatewire.com), then I added the code of vue to improve it, so I still want to thanks to the original author.
