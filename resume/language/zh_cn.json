@@ -1,0 +1,256 @@
+zh_cn({
+    //个人信息
+    "personInfo": {
+        "name": "王祥",
+        "job": "软件工程师/安卓开发/开源极客"
+    },
+    //头部
+    "header": {
+        "hi": "大家好，我是",
+        "detail": "了解更多"
+    },
+    //导航栏
+    "navigation": {
+        "about": "自我介绍",
+        "skills": "技能展示",
+        "portfolio": "项目作品",
+        "resume": "工作经验",
+        "contact": "联系方式"
+    },
+    //关于
+    "about": {
+        "title": "关于我",
+        "subtitle": "明日はきっといい日になる\n明天一定是美好的一天",
+        "introduction": "我是一名工程师，从事软件事业，我要改变世界，巴拉巴拉...此处省略1000字"
+    },
+    //技能
+    "skills": {
+        "title": "我的技能树",
+        "list": [
+            {
+                "name": "Java",
+                "percent": 85
+            },
+            {
+                "name": "Android",
+                "percent": 80
+            },
+            {
+                "name": "HTML+CSS",
+                "percent": 70
+            },
+            {
+                "name": "JavaScript",
+                "percent": 70
+            },
+            {
+                "name": "Vue.js",
+                "percent": 60
+            },
+            {
+                "name": "Node.js",
+                "percent": 50
+            }
+        ]
+    },
+    //作品
+    "portfolio": {
+        "title": "我参与的项目",
+        //作品分类
+        "categories": [
+            {
+                "name": "web"
+            },
+            {
+                "name": "app"
+            },
+            {
+                "name": "vue"
+            },
+            {
+                "name": "java"
+            }
+        ],
+        "types": [
+            {
+                "typeName": "All", // 展示所有类型
+                "filter": "*" // *表示通配，不过滤
+            },
+            {
+                "typeName": "Web项目",
+                "filter": ".web"
+            },
+            {
+                "typeName": "Android应用",
+                "filter": ".app"
+            },
+            {
+                "typeName": "Vue工程",
+                "filter": ".vue"
+            },
+            {
+                "typeName": "Java开发",
+                "filter": ".java"
+            }
+        ],
+        "projects": [
+            {
+                "projectTitle": "简易Web电商系统",
+                "projectCategory": "web",
+                "projectDescription": "Web项目",
+                "projectBackgroudImage": "img/portfolio/01-small.jpg",
+            },
+            {
+                "projectTitle": "总机云",
+                "projectCategory": "app",
+                "projectDescription": "Android应用",
+                "projectBackgroudImage": "img/portfolio/02-small.jpg",
+            },
+            {
+                "projectTitle": "J2SE图书管理系统",
+                "projectCategory": "java",
+                "projectDescription": "Java开发",
+                "projectBackgroudImage": "img/portfolio/03-small.jpg",
+            },
+            {
+                "projectTitle": "菲斯泊车",
+                "projectCategory": "app java",
+                "projectDescription": "Android应用，Java开发",
+                "projectBackgroudImage": "img/portfolio/04-small.jpg",
+            },
+            {
+                "projectTitle": "智慧营维",
+                "projectCategory": "app",
+                "projectDescription": "Android应用",
+                "projectBackgroudImage": "img/portfolio/05-small.jpg",
+            },
+            {
+                "projectTitle": "光接入网平台",
+                "projectCategory": "web app",
+                "projectDescription": "Web项目，Android应用",
+                "projectBackgroudImage": "img/portfolio/06-small.jpg",
+            },
+            {
+                "projectTitle": "华为视频·优酷版",
+                "projectCategory": "app",
+                "projectDescription": "Android应用",
+                "projectBackgroudImage": "img/portfolio/07-small.jpg",
+            },
+            {
+                "projectTitle": "基于Vue前端技术的在线简历",
+                "projectCategory": "vue",
+                "projectDescription": "Vue工程",
+                "projectBackgroudImage": "img/portfolio/08-small.jpg",
+            }
+        ]
+    },
+    //成就
+    "stats": {
+        "title": "统计数据",
+        "list": [
+            {
+                "name": "工作年限",
+                "number": 3
+            },
+            {
+                "name": "参与项目",
+                "number": 10
+            },
+            {
+                "name": "服务客户",
+                "number": 18
+            },
+            {
+                "name": "累计工作小时",
+                "number": 26280
+            }
+        ]
+    },
+    //履历
+    "resume": {
+        //工作经验
+        "experience": {
+            "title": "工作经验",
+            "items": [
+                {
+                    "companyName": "赛特斯科技股份有限公司",
+                    "time": "2019.05 <br>- <br>至今 ",
+                    "responsibilitys": "1.参与进行融合云相关运维业务支撑<br>2.负责基础电视直播云平台客户端诊断程序(Android)<br>3.后期转岗前端开发",
+                    "position": "融合运维软件工程师"
+                },
+                {
+                    "companyName": "江苏润和软件股份有限公司",
+                    "time": "2018.09 <br>- <br>2019.04 ",
+                    "responsibilitys": "1.参与各类信息安全工作<br>2.负责移动应用的日常迭代维护(Android)",
+                    "position": "移动客户端工程师"
+                },
+                {
+                    "companyName": "中博信息技术研究院有限公司",
+                    "time": "2017.03 <br>- <br>2018.09 ",
+                    "responsibilitys": "1.电信云号簿应用开发<br>2.智慧营维应用开发<br>3.光接入网平台开发(Web)",
+                    "position": "审计移动应用开发工程师"
+                },
+                {
+                    "companyName": "南京思美软件系统有限公司",
+                    "time": "2016.11 <br>- <br>2018.09 ",
+                    "responsibilitys": "参与“智慧停车”项目开发工作(Android)",
+                    "position": "Android开发工程师"
+                }
+            ]
+        },
+        //教育情况
+        "education": {
+            "title": "教育经历",
+            // 按时间接受的教育列表，如：博士 <-- 硕士 <-- 本科 <-- 中学
+            "items": [
+                {
+                    "schoolName": "金陵科技学院", // 学校名称
+                    "date": "2012 <br>- <br>2016 ", // 格式必须如：2010 <br>- <br>2011 
+                    // 在学校取得的成果列表，如获得博士学位/发布N篇ISS论文...
+                    "achievements": [
+                        {
+                            "desc": "获得“工学”学士学位"
+                        }
+                    ],
+                    "schoolProfile": "金陵科技学院坐落于六朝古都南京，是一所以培养高素质应用型人才为主的全日制普通本科院校，是国家建设类技能型紧缺人才培养试点高校" // 学校简介
+                },
+                {
+                    "schoolName": "南陵中学", // 学校名称
+                    "date": "2009 <br>- <br>2012 ", // 格式必须如：2010 <br>- <br>2011 
+                    // 在学校取得的成果列表，如获得博士学位/发布N篇ISS论文...
+                    "achievements": [
+                        {
+                            "desc": "获得高中学历"
+                        }
+                    ],
+                    "schoolProfile": "安徽省省级示范重点高中，芜湖市重点高中，南陵县第一中学" // 学校简介
+                }
+            ]
+        }
+    },
+    //联系方式
+    "contact": {
+        "title": "联系我",
+        "street": "玄武区，南京市", //街道，为了保护隐私，写个城市地址就好了
+        "city": "江苏省，中华人民共和国 🇨🇳", //城市，写省份好啦
+        "email": "meswx@outlook.com",
+        "emailnote": "电话 ☎️骚扰喔 👉",
+        "phone": "+86 189 9405 2732",
+        "phonenote": "👈邮件 💌轰炸喔",
+        "subtitle": "你还可以通过以下方式找到我",
+        "facebook": "https://www.facebook.com/iMeswx",
+        "dribbble": "", //无此账号，留空即可，下同
+        "twitter": "https://twitter.com/meswx",
+        "github": "https://github.com/Meswx",
+        "weibo": "https://weibo.com/meswx",
+        "instagram": "",
+        "linkedin": ""
+    },
+    //版权
+    "copyright": {
+        "author": "Meswx", //必填项
+        "original": "John Doe", //虽然我下载的是开源版权的免费HTML模板，但是希望大家还是要尊重下原作者的劳动成果，加上原作者（建议，非必填项目）
+        "source": "TemplateWire", //这里是，原作者模板发布的网站，里面还有很多其他类型的模板（建议，非必填）
+        "sourceurl": "http://www.templatewire.com" //非必填
+    }
+})

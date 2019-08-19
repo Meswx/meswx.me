@@ -1,0 +1,253 @@
+en_us({
+    //Personal information
+    "personInfo": {
+        "name": "Wang Xiang",
+        "job": "Software Enginer/Android Developer/Open Source Geek"
+    },
+    //Header information
+    "header": {
+        "hi": "Hello, I'm ",
+        "detail": "Learn More"
+    },
+    //Navigation information
+    "navigation": {
+        "about": "About",
+        "skills": "Skills",
+        "portfolio": "Portfolio",
+        "resume": "Resume",
+        "contact": "Contact"
+    },
+    //About information
+    "about": {
+        "title": "About Me",
+        "subtitle": "Please put a quote, etc",
+        "introduction": "Please introduction youself"
+    },
+    //Skills information
+    "skills": {
+        "title": "Skills",
+        "list": [
+            {
+                "name": "Java",
+                "percent": 85
+            },
+            {
+                "name": "Android",
+                "percent": 80
+            },
+            {
+                "name": "HTML+CSS",
+                "percent": 70
+            },
+            {
+                "name": "JavaScript",
+                "percent": 70
+            },
+            {
+                "name": "Vue.js",
+                "percent": 60
+            },
+            {
+                "name": "Node.js",
+                "percent": 50
+            }
+        ]
+    },
+    //Portfolio information
+    "portfolio": {
+        "title": "Portfolio",
+        //Portfolio Category
+        "categories": [
+            {
+                "name": "web"
+            },
+            {
+                "name": "app"
+            },
+            {
+                "name": "vue"
+            },
+            {
+                "name": "java"
+            }
+        ],
+        "types": [
+            {
+                "typeName": "All",
+                "filter": "*"
+            },
+            {
+                "typeName": "Web Design",
+                "filter": ".web"
+            },
+            {
+                "typeName": "Android Application",
+                "filter": ".app"
+            },
+            {
+                "typeName": "Vue Project",
+                "filter": ".vue"
+            },
+            {
+                "typeName": "Java Development",
+                "filter": ".java"
+            }
+        ],
+        "projects": [
+            {
+                "projectTitle": "Simple Web Electricity System",
+                "projectCategory": "web",
+                "projectDescription": "Web Design",
+                "projectBackgroudImage": "img/portfolio/01-small.jpg",
+            },
+            {
+                "projectTitle": "ZongJiYun",
+                "projectCategory": "app",
+                "projectDescription": "Android Application",
+                "projectBackgroudImage": "img/portfolio/02-small.jpg",
+            },
+            {
+                "projectTitle": "J2SE Library Management System",
+                "projectCategory": "java",
+                "projectDescription": "Java Development",
+                "projectBackgroudImage": "img/portfolio/03-small.jpg",
+            },
+            {
+                "projectTitle": "Feith Parking",
+                "projectCategory": "app java",
+                "projectDescription": "Android Application,Java Development",
+                "projectBackgroudImage": "img/portfolio/04-small.jpg",
+            },
+            {
+                "projectTitle": "Wisdom Camp",
+                "projectCategory": "app",
+                "projectDescription": "Android Application",
+                "projectBackgroudImage": "img/portfolio/05-small.jpg",
+            },
+            {
+                "projectTitle": "Optical Access Network Platform",
+                "projectCategory": "web app",
+                "projectDescription": "Web Design,Android Application",
+                "projectBackgroudImage": "img/portfolio/06-small.jpg",
+            },
+            {
+                "projectTitle": "Huawei Video(youku)",
+                "projectCategory": "app",
+                "projectDescription": "Android Application",
+                "projectBackgroudImage": "img/portfolio/07-small.jpg",
+            },
+            {
+                "projectTitle": "Online Resume Based on Vue",
+                "projectCategory": "vue",
+                "projectDescription": "Vue Project",
+                "projectBackgroudImage": "img/portfolio/08-small.jpg",
+            }
+        ]
+    },
+    //Achievement
+    "stats": {
+        "title": "Some Stats",
+        "list": [
+            {
+                "name": "Work Experiences",
+                "number": 3
+            },
+            {
+                "name": "Project Numbers",
+                "number": 10
+            },
+            {
+                "name": "Happy Clients",
+                "number": 18
+            },
+            {
+                "name": "Hours of Work",
+                "number": 26280
+            }
+        ]
+    },
+    //Resume information
+    "resume": {
+        //Experience
+        "experience": {
+            "title": "Experience",
+            "items": [
+                {
+                    "companyName": "CertusNet Inc.",
+                    "time": "May 2019 <br>- <br>Present ",
+                    "responsibilitys": "1. Participated in the operation and maintenance business support of fusion cloud<br>2. Responsible for the client diagnostic program of the cloud platform for basic TV live broadcast (Android)<br>3. Post transfer front-end development",
+                    "position": "Integrated Operations Software Engineer"
+                },
+                {
+                    "companyName": "Hoperun Inc.",
+                    "time": "Sept 2018 <br>- <br>Apr 2019 ",
+                    "responsibilitys": "1. Participate in all kinds of information security work<br>2. Responsible for daily iterative maintenance of mobile applications (Android)",
+                    "position": "Mobile Client Engineer"
+                },
+                {
+                    "companyName": "Zhongbo Inc.",
+                    "time": "Mar 2017 <br>- <br>Sept 2018 ",
+                    "responsibilitys": "1. Telecom cloud account application development<br>2. Intelligent operation and maintenance application development<br>3. Optical access network platform development (Web)",
+                    "position": "Audit Mobile Application Development Engineer"
+                },
+                {
+                    "companyName": "Simesoft Inc.",
+                    "time": "Nov 2016 <br>- <br>Sept 2018 ",
+                    "responsibilitys": "Participated in the development of 'smart parking' project (Android)",
+                    "position": "Android Development Engineer"
+                }
+            ]
+        },
+        //Education
+        "education": {
+            "title": "Education",
+            "items": [
+                {
+                    "schoolName": "Jinling Institute of Technology (JIT)",
+                    "date": "2012 <br>- <br>2016 ",
+                    "achievements": [
+                        {
+                            "desc": "Bachelor Degree of Engineering"
+                        }
+                    ],
+                    "schoolProfile": "Located in Nanjing, Jinling Institute of Technology (JIT) is a full-time undergraduate tertiary university, which cultivates advanced application-oriented talents."
+                },
+                {
+                    "schoolName": "NanLing Middle School",
+                    "date": "2009 <br>- <br>2012 ",
+                    "achievements": [
+                        {
+                            "desc": "High School Degree"
+                        }
+                    ],
+                    "schoolProfile": "Anhui provincial key demonstration high school, wuhu city key high school, nanling county first middle school"
+                }
+            ]
+        }
+    },
+    //Contact information
+    "contact": {
+        "title": "Contact",
+        "street": "XuanWu, Nanjing",
+        "city": "Jiang Su, China(🇨🇳)",
+        "email": "meswx@outlook.com",
+        "emailnote": "Telephone ☎️Harassment oh 👉",
+        "phone": "+86 189 9405 2732",
+        "phonenote": "👈Email 💌Bomb oh~",
+        "subtitle": "Social Network",
+        "facebook": "https://www.facebook.com/iMeswx",
+        "dribbble": "", //No such account, just leave it blank, the same as below
+        "twitter": "https://twitter.com/meswx",
+        "github": "https://github.com/Meswx",
+        "weibo": "https://weibo.com/meswx",
+        "instagram": "",
+        "linkedin": ""
+    },
+    //Copyright
+    "copyright": {
+        "author": "Meswx", //mandatory
+        "original": "John Doe", //Although what I download is the free HTML template of open source copyright, I hope that we still need to respect the work of the original author, plus the original author (suggested, not required).
+        "source": "TemplateWire", //Here is the site where the original author template was published, and there are many other types of templates (recommended, not required)
+        "sourceurl": "http://www.templatewire.com" //not required
+    }
+})
